@@ -1,0 +1,97 @@
+2013-12-25 [r1]  nkazu:
+
+	* src/lib/score/Pitch.cpp (added), src/lib/label/SyllableLabeler.h
+	  (added), src/lib/util/PhonemeTable.h (added),
+	  src/lib/score/Beat.cpp (added), src/bin/Makefile.am (added),
+	  src/lib/label/PhonemeLabeler.h (added), src/README (added),
+	  src/lib/temporary/ScoreDoctor.cpp (added), src (added),
+	  src/lib/label/LabelStream.cpp (added),
+	  src/lib/converter/util_converter.cpp (added),
+	  src/lib/label/LabelStrings.h (added),
+	  src/lib/converter/Converter.cpp (added),
+	  src/lib/hts_engine_API/SynthConditionImpl.h (added),
+	  src/lib/util/IStringable.cpp (added), src/lib/score/Dynamics.cpp
+	  (added), src/lib/score/Note.h (added), src/lib/converter (added),
+	  src/lib/score/Pitch.h (added), src/lib/score/Beat.h (added),
+	  src/lib/xml/XmlWriter.cpp (added), src/lib/score/IScoreWriter.h
+	  (added), src/lib/converter/ConfGroup.cpp (added),
+	  src/lib/util/Configurations.h (added), src/configure.ac (added),
+	  src/lib/util/StringTokenizer.cpp (added),
+	  src/lib/label/LabelStream.h (added), src/bin (added),
+	  src/lib/converter/Converter.h (added), src/lib/util/util_types.h
+	  (added), src/lib/score/Dynamics.h (added),
+	  src/lib/temporary/TempScore.h (added), src/lib/xml/XmlReader.h
+	  (added), src/lib/converter/IConvertable.h (added),
+	  src/lib/xml/XmlData.cpp (added), src/lib/util (added),
+	  src/lib/label/LabelData.h (added), src/lib/Sinsy.cpp (added),
+	  src/dic/japanese.shift_jis.table (added),
+	  src/lib/hts_engine_API/HtsEngine.h (added),
+	  src/lib/util/Configurations.cpp (added),
+	  src/dic/japanese.utf_8.table (added), src/lib/xml/XmlParser.cpp
+	  (added), src/config (added), src/lib/util/PhonemeTable.cpp
+	  (added), src/lib/util/InputFile.h (added),
+	  src/lib/util/OutputFile.h (added), src/lib/util/StringTokenizer.h
+	  (added), src/lib/temporary/TempScore.cpp (added),
+	  src/lib/xml/XmlReader.cpp (added), src/lib/japanese/JConf.cpp
+	  (added), src/lib/label/LabelPosition.h (added),
+	  src/lib/util/ForEachAdapter.h (added), src/lib/hts_engine_API
+	  (added), src/lib/score/IScoreWritable.h (added), src/AUTHORS
+	  (added), src/lib/xml/XmlData.h (added),
+	  src/lib/label/INoteLabel.h (added), src/lib/score/Mode.h (added),
+	  src/lib/score/Slur.h (added), src/lib/util/IReadableStream.h
+	  (added), src/dic/japanese.utf_8.conf (added), src/bin/sinsy.cpp
+	  (added), src/lib/score/Key.h (added),
+	  src/lib/label/LabelStrings.cpp (added),
+	  src/lib/util/MacronTable.h (added), src/lib/converter/IConf.h
+	  (added), src/lib/score/Syllabic.cpp (added),
+	  src/lib/converter/PhonemeInfo.cpp (added),
+	  src/lib/label/LabelMaker.cpp (added), src/lib/score/Note.cpp
+	  (added), src/COPYING (added), src/lib/converter/UnknownConf.h
+	  (added), src/lib/label/LabelPosition.cpp (added),
+	  src/lib/util/util_string.h (added), src/lib/label/LabelMeasure.h
+	  (added), src/lib/Makefile.am (added),
+	  src/dic/japanese.euc_jp.table (added),
+	  src/lib/label/IPhonemeLabel.h (added),
+	  src/lib/util/StreamException.h (added),
+	  src/lib/converter/ConfManager.h (added), src/include (added),
+	  src/lib/label (added), src/lib/score/Mode.cpp (added),
+	  src/lib/label/NoteGroup.cpp (added), src/lib/xml/XmlWriter.h
+	  (added), src/lib/score/Key.cpp (added),
+	  src/lib/label/ISyllableLabel.h (added),
+	  src/lib/util/MultibyteCharRange.cpp (added),
+	  src/dic/japanese.macron (added),
+	  src/lib/label/SyllableLabeler.cpp (added),
+	  src/lib/converter/ConfGroup.h (added),
+	  src/lib/converter/PhonemeInfo.h (added),
+	  src/lib/label/LabelMaker.h (added), src/lib/xml/xml_tags.h
+	  (added), src/dic/japanese.euc_jp.conf (added),
+	  src/lib/converter/ConfManager.cpp (added), src/include/sinsy.h
+	  (added), src/lib/label/LabelData.cpp (added),
+	  src/lib/hts_engine_API/HtsEngine.cpp (added),
+	  src/lib/label/PhonemeLabeler.cpp (added), src/lib/japanese
+	  (added), src/dic (added), src/lib/util/MultibyteCharRange.h
+	  (added), src/lib/util/InputFile.cpp (added),
+	  src/lib/temporary/ScoreDoctor.h (added), src/lib (added),
+	  src/INSTALL (added), src/lib/util/IWritableStream.h (added),
+	  src/lib/xml/XmlParser.h (added), src/lib/util/IStringable.h
+	  (added), src/NEWS (added), src/lib/score/util_score.h (added),
+	  src/lib/score (added), src/lib/japanese/JConf.h (added),
+	  src/lib/score/Slur.cpp (added), src/lib/temporary (added),
+	  src/dic/japanese.shift_jis.conf (added),
+	  src/lib/util/MacronTable.cpp (added), src/lib/util/Deleter.h
+	  (added), src/lib/converter/UnknownConf.cpp (added),
+	  src/lib/util/util_string.cpp (added),
+	  src/lib/score/ScorePosition.h (added),
+	  src/lib/label/NoteLabeler.h (added),
+	  src/lib/label/LabelMeasure.cpp (added), src/lib/score/Syllabic.h
+	  (added), src/Makefile.am (added), src/lib/score/util_score.cpp
+	  (added), src/lib/label/ILabelOutput.h (added),
+	  src/lib/util/util_log.h (added), src/lib/util/WritableStrStream.h
+	  (added), src/lib/label/NoteGroup.h (added),
+	  src/lib/hts_engine_API/SynthConditionImpl.cpp (added),
+	  src/lib/score/ScorePosition.cpp (added),
+	  src/lib/label/NoteLabeler.cpp (added),
+	  src/lib/util/OutputFile.cpp (added), src/lib/xml (added),
+	  src/lib/converter/util_converter.h (added), src/dic/Makefile.am
+	  (added): Initial commit
+
