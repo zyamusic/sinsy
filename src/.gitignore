@@ -1,1 +1,8 @@
 Makefile
+config.log
+config.status
+*.o
+*.a
+*.deps
+*.cache
+sinsy
