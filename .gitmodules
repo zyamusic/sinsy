@@ -1,0 +1,3 @@
+[submodule "hts-engine"]
+	path = hts-engine
+	url = git@apollommm.git.beanstalkapp.com:/apollommm/hts-engine.git
